@@ -6,7 +6,7 @@ const path = require('path')
 const hostname = 'localhost'
 
 // Require static assets from public folder
-
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.set("views",path.join(__dirname,"views"))
 console.log(__dirname);
