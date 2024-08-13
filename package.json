@@ -1,0 +1,18 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "haha",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start1":"node .\\bai1\\app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "lam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
